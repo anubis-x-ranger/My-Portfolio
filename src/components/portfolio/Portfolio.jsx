@@ -38,6 +38,31 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
+            <img src={IMG2} alt="pharmeasy" />
+          </div>
+          <h3>Netflix Clone</h3>
+          <p className="details">
+            A clone of Netflix website. We made this as project and this we used react, javascript, scss framework to build; this website. We made this clone 1 week and in our team we are 5 members. You can only watch trailers of movies in this clone.
+          </p>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/anubis-x-ranger/Netflix"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="netflix-lake-two.vercel.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
             <img src={IMG1} alt="homedepot" />
           </div>
           <h3>HomeDepot Clone</h3>
